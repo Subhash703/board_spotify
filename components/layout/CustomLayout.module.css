@@ -1,0 +1,11 @@
+.layout_wrapper {
+  width: 100%;
+  display: flex;
+  justify-items: stretch;
+}
+.layout_content {
+  flex: 1;
+  min-height: 100vh;
+  padding: 1rem;
+  border: 2px solid red;
+}

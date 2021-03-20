@@ -1,0 +1,108 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+.content {
+  flex: 1;
+  position: relative;
+}
+
+body {
+  background-color: #f3f5f9;
+  font-family: 'Bree Serif', serif;
+  overflow-x: hidden;
+  color: #000;
+}
+
+.sidebar-wrapper {
+  max-width: 320px;
+  height: 100%;
+  position: relative;
+}
+.sidebar-wrapper .sidebar {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: #010101;
+  position: static;
+  left: 0;
+  color: #fff;
+}
+
+.sidebar .logo {
+  text-align: center;
+  padding: 2em 0;
+  margin: 0 auto;
+}
+.logo img {
+  object-fit: cover;
+  width: 70%;
+  background: #fff;
+}
+
+nav hr {
+  height: 3px;
+  width: 100%;
+  /* transform: translateX(-15%); */
+  background: rgba(145, 135, 135, 0.5);
+  margin-bottom: 1rem;
+  border: none;
+}
+.sidebar .nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.sidebar ul.playlist {
+  margin-left: 0;
+}
+.sidebar .nav-links > li {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  font-size: 1.15rem;
+}
+.nav-links p {
+  margin: 1rem;
+}
+
+.sidebar .playlist > li {
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.sidebar ul li:hover {
+  color: #796f6f;
+}
+.sidebar ul li i {
+  margin-right: 0.5rem;
+}
+.nav-links li:last-of-type {
+  margin-top: auto;
+}

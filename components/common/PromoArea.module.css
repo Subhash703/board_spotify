@@ -1,0 +1,15 @@
+.promo__wrapper {
+  width: 100%;
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #f8f8f8;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.promo_heading {
+  font-weight: 900;
+}
