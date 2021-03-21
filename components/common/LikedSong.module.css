@@ -17,6 +17,8 @@
 }
 .course_category {
   margin: 2em 0;
+}
+.course_category .container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;

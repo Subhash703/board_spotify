@@ -5,7 +5,7 @@ import thunk from 'redux-thunk'
 import rootReducer from './reducers'
 
 const initialState = {
-  token: null,
+  token: 'null',
   loading: null,
   songs: [],
 }

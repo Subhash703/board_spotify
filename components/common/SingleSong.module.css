@@ -30,7 +30,7 @@
 .course_img {
   position: relative;
 }
-.play-icon {
+.play_icon {
   position: absolute;
   bottom: -5px;
   right: -5px;
@@ -46,7 +46,7 @@
 .sc__course_wrapper:hover {
   background: #f2f2f2;
 }
-.sc__course_wrapper:hover .play-icon {
+.sc__course_wrapper:hover .play_icon {
   opacity: 1;
   bottom: 10px;
   right: 10px;
@@ -90,7 +90,7 @@
 .sc_song_img {
   position: relative;
 }
-.play-icon {
+.play_icon {
   position: absolute;
   bottom: -5px;
   right: -5px;
@@ -106,7 +106,7 @@
 .sc__song_wrapper:hover {
   background: #363434;
 }
-.sc__song_wrapper:hover .play-icon {
+.sc__song_wrapper:hover .play_icon {
   opacity: 1;
   bottom: 10px;
   right: 10px;

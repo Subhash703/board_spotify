@@ -1,7 +1,7 @@
-import { Button } from 'antd'
 import React from 'react'
 import styles from './PromoArea.module.css'
 import Link from 'next/link'
+import { Button } from 'antd'
 
 function PromoArea() {
   return (
@@ -13,7 +13,7 @@ function PromoArea() {
         The recommended way to learn on Techlious is not through just courses,
         but following learning paths. Pick a learning path below and start:
       </p>
-      <Button type='primary' size='middle'>
+      <Button type='success' size='middle'>
         <Link href='#faveroite'>Music You will Love to hear! </Link>
       </Button>
     </div>

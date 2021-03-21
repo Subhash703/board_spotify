@@ -6,7 +6,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Content from './Content'
 
-function CustomLayout() {
+function CustomLayout({ songList }) {
   return (
     <div className={styles.layout_wrapper}>
       <Sidebar />

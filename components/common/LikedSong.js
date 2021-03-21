@@ -4,7 +4,17 @@ import { Col, Divider, Row } from 'antd'
 
 import SingleSong from './SingleSong'
 
+import { useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
+import { fetchSongs } from '../../redux/actions/songActions'
+
 function LikedSong() {
+  const dispatch = useDispatch()
+  const songList = dispatch(fetchSongs())
+  const posts = useSelector((state) => state.posts)
+  console.log(posts)
+  // const songs = songList?.results
+  // console.log(songs?.length)
   return (
     <div className={styles.courses_wrapper} id='courses'>
       <h2 className={styles.courses_title}>Front End Development</h2>
@@ -68,7 +78,7 @@ function LikedSong() {
         </div>
       </div>
       <Divider />
-      <div className={styles.course_category}>
+      {/* <div className={styles.course_category}>
         <h2 className={styles.courses_title}>Back End Development</h2>
         <div className={styles.container}>
           <SingleSong
@@ -233,7 +243,7 @@ function LikedSong() {
             ratingCount={2304}
           />
         </div>
-      </div>
+      </div> */}
       <Divider />
     </div>
   )

@@ -42,7 +42,7 @@ function SingleCourse({
     // </div>
     <div className={styles.sc__song_wrapper}>
       <div className={styles.sc_song_img}>
-        <i className='fas fa-play play-icon'></i>
+        <i className={(styles.play_icon, ['fas fa-play'])}></i>
         <img
           className={styles.sc_cover_img}
           src='https://source.unsplash.com/1600x900/?songs'

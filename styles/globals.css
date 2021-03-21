@@ -38,7 +38,10 @@ body {
 .sidebar-wrapper {
   max-width: 320px;
   height: 100%;
-  position: relative;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  bottom: 0;
 }
 .sidebar-wrapper .sidebar {
   width: 100%;
@@ -105,4 +108,9 @@ nav hr {
 }
 .nav-links li:last-of-type {
   margin-top: auto;
+}
+
+.content_wrapper {
+  margin-left: 320px;
+  width: 100%;
 }

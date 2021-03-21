@@ -1,7 +1,6 @@
 .layout_wrapper {
   width: 100%;
   display: flex;
-  justify-items: stretch;
 }
 .layout_content {
   flex: 1;
